@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before,  *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.brand {
+    font-family: 'Pacifico', cursive;
+}
+
+.brand a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.main-nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav a {
+    color: black;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.main-nav a:hover {
+    color: #adadad;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+}
+
+.main-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+span {
+    font-family: 'Pacifico', cursive;
+}
+
+.welcome-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+/*Button Styling*/
+
+.btn1 {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.btn1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn1 {
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	font-size: 12px;
+	padding: 9px 9px;
+	letter-spacing: 1px;
+}
+
+.btn1:focus {
+	outline: none;
+}
+
+/*Project Page*/
+
+.working-part{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.brand {
+    font-family: 'Pacifico', cursive;
+}
